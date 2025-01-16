@@ -1,5 +1,5 @@
 Cypress.Commands.add('login', (email, password) => {
-    cy.visit('http://localhost/signin/?secure=true')
+    cy.visit('https://demo.driveezpro.ca/')
     cy.get('.login > .auth-form > .app-form > :nth-child(1) > .row > .col-md-12 > .form-control').type(email)
     cy.get('.login > .auth-form > .app-form > :nth-child(2) > .row > .col-md-12').type(password)
     cy.get(':nth-child(3) > .row > .col-md-12 > .btn').click()

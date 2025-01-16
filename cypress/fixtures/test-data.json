@@ -1,6 +1,6 @@
 {
   "login": {
-    "url": "http://localhost/signin/?secure=true",
+    "url": "https://demo.driveezpro.ca/",
     "email": "admin@driveezpro.ca",
     "password": "passqw"
   },
